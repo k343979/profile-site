@@ -104,6 +104,7 @@ h3 {
 
 img {
   padding-top: 50px;
+  padding-bottom: 30px;
   padding-left: 70px;
   width: 60%;
   height: auto;
