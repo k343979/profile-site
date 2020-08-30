@@ -10,7 +10,7 @@
       </ol>
     </div>
     <div class="hamburger">
-      <div class="hamburger_btn" @click="open_manu">
+      <div class="hamburger_btn" @click="openMenu">
         <span></span>
         <span></span>
         <span></span>
@@ -20,10 +20,10 @@
           <ul>
             <li v-for="(item, index) in items" :key="index">
               <router-link v-bind:to="item.path">
-                {{ item.title}}
+                {{ item.title }}
               </router-link>
             </li>
-            <button @click="close_manu">閉じる</button>
+            <button @click="closeManu">閉じる</button>
           </ul>
         </div>
       </transition>
@@ -47,10 +47,10 @@ export default {
     };
   },
   methods: {
-    open_menu() {
+    openMenu() {
       this.show = true;
     },
-    close_menu() {
+    closeMenu() {
       this.show = false;
     }
   }
