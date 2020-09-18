@@ -30,23 +30,25 @@ export default {
 </script>
 
 <style scoped>
-.main {
+#Home {
+  background-color: #cccccc;
   margin-top: 0;
+}
+.main {
   margin-bottom: 40px;
   width: 100%;
-  height: 350px;
-  background-color: #cccccc;
   display: flex;
 }
 
 .main-left {
   width: 50%;
+  padding-top: 35px;
   padding-left: 80px;
+  margin-bottom: 35px;
 }
 
 .main-img {
   width: 70%;
-  padding-top: 35px;
 }
 
 .main-right {
@@ -68,15 +70,5 @@ export default {
   height: 20px;
   font-size: 18px;
   line-height: 26px;
-}
-
-@media screen and (max-width: 768) {
-  .main {
-    margin-top: 50px;
-    width: 100%;
-    height: auto;
-    background-color: #cccccc;
-    flex-wrap: wrap;
-  }
 }
 </style>

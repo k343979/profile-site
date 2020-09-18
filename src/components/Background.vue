@@ -28,11 +28,11 @@
       <div class="main-content">
         <div class="main-left">
           <img src="../assets/SSHP-illust.jpg" />
-          <p class="explain">{{ explain_img }}</p>
         </div>
         <div class="main-right">
           <h3>■ {{ internship }}</h3>
           <p>{{ internship_content }}</p>
+          <p class="explain">{{ explain_img }}</p>
         </div>
       </div>
     </div>
@@ -51,7 +51,7 @@ export default {
       essay_content: "2016年12月に日本でカジノ法案が成立したことから、日本でカジノ施設が設立される可能性を考察し、実現されると経済へどのような影響をもたらすのか、ということを研究しました。カジノ導入のメリット・デメリットの比較、経済的利益の回帰分析、またカジノの潜在的市場規模の推計などを行い、考察を図りました。",
       job: "塾講師",
       job_content: "とある個別指導塾の塾講師として4年間勤めてきました。担当生徒の成績向上と担当受験生の志望校合格をサポートするため、生徒一人ひとりに合った教え方を探し、実行しました。相手にわかりやすく伝えるために簡単な問題に置き換えたり、具体例を交えて説明するように工夫していました。",
-      explain_img: "CEOへ企画のプレゼンテーション",
+      explain_img: "左図：CEOへ企画のプレゼンテーション",
       internship: "シンガポール現地のスタートアップ企業へ",
       internship_content: "シンガポール現地のSaaS企業に約1ヶ月勤めました。ホテルのホームページにチャットボットを導入するSaaS企業でした。そこで私は、シンガポール国内におけるホテル産業の市場調査と外国人旅行客の動向調査、そして自社サービスの宣伝方法を模索し、マーケティングについて学びました。ホテル産業の市場調査と外国人観光客の動向調査の結果、自社のチャットサービスを導入してもらうクライアント先のホテルを3件選定し、アプローチをかけることを提案しました。",
     };
@@ -94,6 +94,7 @@ h3 {
 
 .main-left {
   padding-left: 40px;
+  margin-bottom: 20px;
   width: 50%;
 }
 
@@ -113,10 +114,5 @@ p {
   padding: 30px 0;
   width: 90%;
   line-height: 25px;
-}
-
-.explain {
-  padding-left: 110px;
-  font-weight: bold;
 }
 </style>

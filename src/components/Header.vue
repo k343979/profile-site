@@ -42,6 +42,4 @@ img {
   height: 90px;
   margin-left: 200px;
 }
-
-
 </style>
