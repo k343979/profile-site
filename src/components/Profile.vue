@@ -39,7 +39,7 @@ export default {
       ocupation: '大学生',
       university: '関西大学,経済学部',
       major: '経済学,経済理論',
-      hobby: 'プログラミング,Youtube,服の買い物'
+      hobby: 'プログラミング,読書,服の買い物'
     };
   },
   components: {
